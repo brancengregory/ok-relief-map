@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.1",
+    "Version": "4.3.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -12,67 +12,99 @@
     "DBI": {
       "Package": "DBI",
       "Version": "1.1.3",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "DBI",
+      "RemoteRef": "DBI",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.1.3",
       "Hash": "b2866e62bab9378c3cc9476a1954226b",
       "Requirements": []
     },
     "KernSmooth": {
       "Package": "KernSmooth",
-      "Version": "2.23-20",
+      "Version": "2.23-22",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8dcfa99b14c296bc9f1fd64d52fd3ce7",
+      "Hash": "2fecebc3047322fa5930f74fae5de70f",
       "Requirements": []
     },
     "MASS": {
       "Package": "MASS",
-      "Version": "7.3-58.1",
+      "Version": "7.3-60",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "762e1804143a332333c054759f89a706",
+      "Hash": "a56a6365b3fa73293ea8d084be0d9bb0",
       "Requirements": []
     },
     "R6": {
       "Package": "R6",
       "Version": "2.5.1",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "R6",
+      "RemoteRef": "R6",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "2.5.1",
       "Hash": "470851b6d5d0ac559e9d01bb352b4021",
       "Requirements": []
     },
     "RColorBrewer": {
       "Package": "RColorBrewer",
       "Version": "1.1-3",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "RColorBrewer",
+      "RemoteRef": "RColorBrewer",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.1-3",
       "Hash": "45f0398006e83a5b10b72a90663d8d8c",
       "Requirements": []
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.0.9",
+      "Version": "1.0.11",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "e9c08b94391e9f3f97355841229124f2",
+      "Hash": "ae6cbbe1492f4de79c45fce06f967ce8",
       "Requirements": []
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.11.2.4.0",
-      "Source": "Repository",
+      "Version": "0.12.6.6.0",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "796805fe55a25e42b5e0aeefacc041dc",
+      "RemoteType": "standard",
+      "RemotePkgRef": "RcppArmadillo",
+      "RemoteRef": "RcppArmadillo",
+      "RemoteRepos": "https://cran.rstudio.com/",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.12.6.6.0",
+      "Hash": "aabc6cb0f0953d0442d3c82d8a9d2610",
       "Requirements": [
         "Rcpp"
       ]
     },
-    "askpass": {
-      "Package": "askpass",
-      "Version": "1.1",
+    "RcppThread": {
+      "Package": "RcppThread",
+      "Version": "2.1.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "e8a22846fff485f0be3770c2da758713",
+      "Hash": "15b2a1d05d59110afc61be7b789325fe",
+      "Requirements": []
+    },
+    "askpass": {
+      "Package": "askpass",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "cad6cf7f1d5f6e906700b9d3e718c796",
       "Requirements": [
         "sys"
       ]
@@ -80,27 +112,68 @@
     "base64enc": {
       "Package": "base64enc",
       "Version": "0.1-3",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "base64enc",
+      "RemoteRef": "base64enc",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.1-3",
       "Hash": "543776ae6848fde2f48ff3816d0628bc",
       "Requirements": []
     },
-    "class": {
-      "Package": "class",
-      "Version": "7.3-20",
+    "bslib": {
+      "Package": "bslib",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "da09d82223e669d270e47ed24ac8686e",
+      "Hash": "283015ddfbb9d7bf15ea9f0b5698f0d9",
+      "Requirements": [
+        "base64enc",
+        "cachem",
+        "htmltools",
+        "jquerylib",
+        "jsonlite",
+        "memoise",
+        "mime",
+        "rlang",
+        "sass"
+      ]
+    },
+    "cachem": {
+      "Package": "cachem",
+      "Version": "1.0.8",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "cachem",
+      "RemoteRef": "cachem",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.0.8",
+      "Hash": "c35768291560ce302c0a6589f92e837d",
+      "Requirements": [
+        "fastmap",
+        "rlang"
+      ]
+    },
+    "class": {
+      "Package": "class",
+      "Version": "7.3-22",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f91f6b29f38b8c280f2b9477787d4bb2",
       "Requirements": [
         "MASS"
       ]
     },
     "classInt": {
       "Package": "classInt",
-      "Version": "0.4-7",
+      "Version": "0.4-10",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9c04a89713e4c4f9c0f3bf9ef928f852",
+      "Hash": "f5a40793b1ae463a7ffb3902a95bf864",
       "Requirements": [
         "KernSmooth",
         "class",
@@ -109,52 +182,78 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.3.0",
-      "Source": "Repository",
+      "Version": "3.6.1",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "23abf173c2b783dcc43379ab9bba00ee",
-      "Requirements": [
-        "glue"
-      ]
+      "RemoteType": "standard",
+      "RemotePkgRef": "cli",
+      "RemoteRef": "cli",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "3.6.1",
+      "Hash": "89e6d8219950eac806ae0c489052048a",
+      "Requirements": []
     },
     "codetools": {
       "Package": "codetools",
-      "Version": "0.2-18",
+      "Version": "0.2-19",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "019388fc48e48b3da0d3a76ff94608a8",
+      "Hash": "c089a619a7fae175d149d89164f8c7d8",
       "Requirements": []
     },
     "colorspace": {
       "Package": "colorspace",
-      "Version": "2.0-3",
-      "Source": "Repository",
+      "Version": "2.1-0",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "bb4341986bc8b914f0f0acf2e4a3f2f7",
+      "RemoteType": "standard",
+      "RemotePkgRef": "colorspace",
+      "RemoteRef": "colorspace",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "2.1-0",
+      "Hash": "f20c47fd52fae58b4e377c37bb8c335b",
       "Requirements": []
     },
     "crayon": {
       "Package": "crayon",
-      "Version": "1.5.1",
-      "Source": "Repository",
+      "Version": "1.5.2",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "8dc45fd8a1ee067a92b85ef274e66d6a",
+      "RemoteType": "standard",
+      "RemotePkgRef": "crayon",
+      "RemoteRef": "crayon",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.5.2",
+      "Hash": "e8a1e41acf02548751f45c718d55aa6a",
       "Requirements": []
     },
     "curl": {
       "Package": "curl",
-      "Version": "4.3.2",
+      "Version": "5.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "022c42d49c28e95d69ca60446dbabf88",
+      "Hash": "9123f3ef96a2c1a93927d828b2fe7d4c",
       "Requirements": []
+    },
+    "decido": {
+      "Package": "decido",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "671d3cba9fc5a7663386426d5b61d1c7",
+      "Requirements": [
+        "Rcpp"
+      ]
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.29",
+      "Version": "0.6.33",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "cf6b206a045a684728c3267ef7596190",
+      "Hash": "b18a9cf3c003977b0cc49d5e76ebe48d",
       "Requirements": []
     },
     "doParallel": {
@@ -168,42 +267,54 @@
         "iterators"
       ]
     },
-    "e1071": {
-      "Package": "e1071",
-      "Version": "1.7-11",
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.1.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fc02aa712f8600f7da17f44989646a21",
+      "Hash": "e85ffbebaad5f70e1a2e2ef4302b4949",
+      "Requirements": [
+        "R6",
+        "cli",
+        "generics",
+        "glue",
+        "lifecycle",
+        "magrittr",
+        "pillar",
+        "rlang",
+        "tibble",
+        "tidyselect",
+        "vctrs"
+      ]
+    },
+    "e1071": {
+      "Package": "e1071",
+      "Version": "1.7-13",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "e1071",
+      "RemoteRef": "e1071",
+      "RemoteRepos": "https://cran.rstudio.com",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.7-13",
+      "Hash": "1046cb48d06cb40c2900d8878f03a0fe",
       "Requirements": [
         "class",
         "proxy"
       ]
     },
-    "elevatr": {
-      "Package": "elevatr",
-      "Version": "0.4.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "4922456741d2babf2bc14654c8d6d4fd",
-      "Requirements": [
-        "furrr",
-        "future",
-        "httr",
-        "jsonlite",
-        "progressr",
-        "purrr",
-        "raster",
-        "sf",
-        "slippymath",
-        "sp",
-        "units"
-      ]
-    },
     "ellipsis": {
       "Package": "ellipsis",
       "Version": "0.3.2",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ellipsis",
+      "RemoteRef": "ellipsis",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.3.2",
       "Hash": "bb0eec2fe32e88d9e2836c2f73ea2077",
       "Requirements": [
         "rlang"
@@ -211,27 +322,58 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.16",
+      "Version": "0.23",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9a3d3c345f8a5648abe61608aaa29518",
+      "Hash": "daf4a1246be12c1fa8c7705a0935c1a0",
+      "Requirements": []
+    },
+    "fansi": {
+      "Package": "fansi",
+      "Version": "1.0.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "3e8583a60163b4bc1a80016e63b9959e",
       "Requirements": []
     },
     "farver": {
       "Package": "farver",
       "Version": "2.1.1",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "farver",
+      "RemoteRef": "farver",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "2.1.1",
       "Hash": "8106d78941f34855c440ddb946b8f7a5",
       "Requirements": []
     },
     "fastmap": {
       "Package": "fastmap",
-      "Version": "1.1.0",
+      "Version": "1.1.1",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "fastmap",
+      "RemoteRef": "fastmap",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.1.1",
+      "Hash": "f7736a18de97dea803bde0a2daaafb27",
+      "Requirements": []
+    },
+    "fontawesome": {
+      "Package": "fontawesome",
+      "Version": "0.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "77bd60a6157420d4ffa93b27cf6a58b8",
-      "Requirements": []
+      "Hash": "c2efdd5f0bcd1ea861c2d4e2a883a67d",
+      "Requirements": [
+        "htmltools",
+        "rlang"
+      ]
     },
     "foreach": {
       "Package": "foreach",
@@ -244,70 +386,71 @@
         "iterators"
       ]
     },
-    "furrr": {
-      "Package": "furrr",
-      "Version": "0.3.1",
+    "fs": {
+      "Package": "fs",
+      "Version": "1.6.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "da7a4c32196cb2262a41dd5a25d486ff",
-      "Requirements": [
-        "future",
-        "globals",
-        "lifecycle",
-        "purrr",
-        "rlang",
-        "vctrs"
-      ]
+      "Hash": "47b5f30c720c23999b913a1a635cf0bb",
+      "Requirements": []
     },
-    "future": {
-      "Package": "future",
-      "Version": "1.28.0",
-      "Source": "Repository",
+    "generics": {
+      "Package": "generics",
+      "Version": "0.1.3",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "f3e26a942d4ee32cec9403e1ddd7000b",
-      "Requirements": [
-        "digest",
-        "globals",
-        "listenv",
-        "parallelly"
-      ]
-    },
-    "globals": {
-      "Package": "globals",
-      "Version": "0.16.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e14798793892c6bebdbe2f144aacf6e6",
-      "Requirements": [
-        "codetools"
-      ]
+      "RemoteType": "standard",
+      "RemotePkgRef": "generics",
+      "RemoteRef": "generics",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.1.3",
+      "Hash": "15e9634c0fcd294799e9b2e929ed1b86",
+      "Requirements": []
     },
     "glue": {
       "Package": "glue",
       "Version": "1.6.2",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "glue",
+      "RemoteRef": "glue",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.6.2",
       "Hash": "4f2596dfb05dac67b9dc558e5c6fba2e",
       "Requirements": []
     },
     "highr": {
       "Package": "highr",
-      "Version": "0.9",
-      "Source": "Repository",
+      "Version": "0.10",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "8eb36c8125038e648e5d111c0d7b2ed4",
+      "RemoteType": "standard",
+      "RemotePkgRef": "highr",
+      "RemoteRef": "highr",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.10",
+      "Hash": "06230136b2d2b9ba5805e1963fa6e890",
       "Requirements": [
         "xfun"
       ]
     },
     "hms": {
       "Package": "hms",
-      "Version": "1.1.1",
-      "Source": "Repository",
+      "Version": "1.1.3",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "5b8a2dd0fdbe2ab4f6081e6c7be6dfca",
+      "RemoteType": "standard",
+      "RemotePkgRef": "hms",
+      "RemoteRef": "hms",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.1.3",
+      "Hash": "b59377caa7ed00fa41808342002138f9",
       "Requirements": [
-        "ellipsis",
         "lifecycle",
         "pkgconfig",
         "rlang",
@@ -316,35 +459,44 @@
     },
     "htmltools": {
       "Package": "htmltools",
-      "Version": "0.5.3",
+      "Version": "0.5.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6496090a9e00f8354b811d1a2d47b566",
+      "Hash": "2d7b3857980e0e0d0a1fd6f11928ab0f",
       "Requirements": [
         "base64enc",
         "digest",
+        "ellipsis",
         "fastmap",
         "rlang"
       ]
     },
     "htmlwidgets": {
       "Package": "htmlwidgets",
-      "Version": "1.5.4",
-      "Source": "Repository",
+      "Version": "1.6.2",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "76147821cd3fcd8c4b04e1ef0498e7fb",
+      "RemoteType": "standard",
+      "RemotePkgRef": "htmlwidgets",
+      "RemoteRef": "htmlwidgets",
+      "RemoteRepos": "https://cran.rstudio.com",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.6.2",
+      "Hash": "a865aa85bcb2697f47505bfd70422471",
       "Requirements": [
         "htmltools",
         "jsonlite",
+        "knitr",
+        "rmarkdown",
         "yaml"
       ]
     },
     "httr": {
       "Package": "httr",
-      "Version": "1.4.4",
+      "Version": "1.4.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "57557fac46471f0dbbf44705cc6a5c8c",
+      "Hash": "ac107251d9d9fd72f0ca8049988f1d7f",
       "Requirements": [
         "R6",
         "curl",
@@ -363,90 +515,133 @@
     },
     "jpeg": {
       "Package": "jpeg",
-      "Version": "0.1-9",
+      "Version": "0.1-10",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "441ee36360a57b363f4fa3df0c364630",
+      "Hash": "031a0b683d001a7519202f0628fc0358",
       "Requirements": []
+    },
+    "jquerylib": {
+      "Package": "jquerylib",
+      "Version": "0.1.4",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "jquerylib",
+      "RemoteRef": "jquerylib",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.1.4",
+      "Hash": "5aab57a3bd297eee1c1d862735972182",
+      "Requirements": [
+        "htmltools"
+      ]
     },
     "jsonlite": {
       "Package": "jsonlite",
-      "Version": "1.8.0",
+      "Version": "1.8.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d07e729b27b372429d42d24d503613a0",
+      "Hash": "266a20443ca13c65688b2116d5220f76",
       "Requirements": []
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.39",
+      "Version": "1.45",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "029ab7c4badd3cf8af69016b2ba27493",
+      "Hash": "1ec462871063897135c1bcbe0fc8f07d",
       "Requirements": [
         "evaluate",
         "highr",
-        "stringr",
         "xfun",
         "yaml"
       ]
     },
     "labeling": {
       "Package": "labeling",
-      "Version": "0.4.2",
+      "Version": "0.4.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "3d5108641f47470611a32d0bdf357a72",
+      "Hash": "b64ec208ac5bc1852b285f665d6368b3",
       "Requirements": []
     },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.20-45",
+      "Version": "0.21-9",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b64cdbb2b340437c4ee047a1f4c4377b",
+      "Hash": "5558c61e0136e247252f5f952cdaad6a",
       "Requirements": []
     },
     "lifecycle": {
       "Package": "lifecycle",
-      "Version": "1.0.1",
+      "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a6b6d352e3ed897373ab19d8395c98d0",
+      "Hash": "b8552d117e1b808b09a832f589b79035",
       "Requirements": [
+        "cli",
         "glue",
         "rlang"
       ]
     },
-    "listenv": {
-      "Package": "listenv",
-      "Version": "0.8.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "0bde42ee282efb18c7c4e63822f5b4f7",
-      "Requirements": []
-    },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.3",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "magrittr",
+      "RemoteRef": "magrittr",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "2.0.3",
       "Hash": "7ce2733a9826b3aeb1775d56fd305472",
       "Requirements": []
+    },
+    "memoise": {
+      "Package": "memoise",
+      "Version": "2.0.1",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "memoise",
+      "RemoteRef": "memoise",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "2.0.1",
+      "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c",
+      "Requirements": [
+        "cachem",
+        "rlang"
+      ]
     },
     "mime": {
       "Package": "mime",
       "Version": "0.12",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "mime",
+      "RemoteRef": "mime",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.12",
       "Hash": "18e9c28c1d3ca1560ce30658b22ce104",
       "Requirements": []
     },
     "munsell": {
       "Package": "munsell",
       "Version": "0.5.0",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "munsell",
+      "RemoteRef": "munsell",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.5.0",
       "Hash": "6dfe8bf774944bd5595785e3229d8771",
       "Requirements": [
         "colorspace"
@@ -454,44 +649,70 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.0.2",
+      "Version": "2.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6d3bef2e305f55c705c674653c7d7d3d",
+      "Hash": "2a0dc8c6adfb6f032e4d4af82d258ab5",
       "Requirements": [
         "askpass"
       ]
     },
-    "parallelly": {
-      "Package": "parallelly",
-      "Version": "1.32.1",
-      "Source": "Repository",
+    "pillar": {
+      "Package": "pillar",
+      "Version": "1.9.0",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "9e3d8d65cb9c5ca5966340a6bfec60b2",
-      "Requirements": []
+      "RemoteType": "standard",
+      "RemotePkgRef": "pillar",
+      "RemoteRef": "pillar",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.9.0",
+      "Hash": "15da5a8412f317beeee6175fbc76f4bb",
+      "Requirements": [
+        "cli",
+        "fansi",
+        "glue",
+        "lifecycle",
+        "rlang",
+        "utf8",
+        "vctrs"
+      ]
     },
     "pkgconfig": {
       "Package": "pkgconfig",
       "Version": "2.0.3",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "pkgconfig",
+      "RemoteRef": "pkgconfig",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "2.0.3",
       "Hash": "01f28d4278f15c76cddbea05899c5d6f",
       "Requirements": []
     },
     "png": {
       "Package": "png",
-      "Version": "0.1-7",
-      "Source": "Repository",
+      "Version": "0.1-8",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "03b7076c234cb3331288919983326c55",
+      "RemoteType": "standard",
+      "RemotePkgRef": "png",
+      "RemoteRef": "png",
+      "RemoteRepos": "https://cran.rstudio.com/",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.1-8",
+      "Hash": "bd54ba8a0a5faded999a7aab6e46b374",
       "Requirements": []
     },
     "prettyunits": {
       "Package": "prettyunits",
-      "Version": "1.1.1",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "95ef9167b75dde9d2ccc3c7528393e7e",
+      "Hash": "6b01fc98b1e86c4f705ce9dcfd2f57c7",
       "Requirements": []
     },
     "progress": {
@@ -507,41 +728,54 @@
         "prettyunits"
       ]
     },
-    "progressr": {
-      "Package": "progressr",
-      "Version": "0.11.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "2d004de7f34cd30956e95265f56a8bb6",
-      "Requirements": [
-        "digest"
-      ]
-    },
     "proxy": {
       "Package": "proxy",
       "Version": "0.4-27",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "proxy",
+      "RemoteRef": "proxy",
+      "RemoteRepos": "https://cran.rstudio.com",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.4-27",
       "Hash": "e0ef355c12942cf7a6b91a6cfaea8b3e",
       "Requirements": []
     },
     "purrr": {
       "Package": "purrr",
-      "Version": "0.3.4",
+      "Version": "1.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "97def703420c8ab10d8f0e6c72101e02",
+      "Hash": "1cba04a4e9414bdefc9dcaa99649a8dc",
       "Requirements": [
+        "cli",
+        "lifecycle",
         "magrittr",
-        "rlang"
+        "rlang",
+        "vctrs"
       ]
+    },
+    "rappdirs": {
+      "Package": "rappdirs",
+      "Version": "0.3.3",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rappdirs",
+      "RemoteRef": "rappdirs",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.3.3",
+      "Hash": "5e3c5dc0b071b21fa128676560dbe94d",
+      "Requirements": []
     },
     "raster": {
       "Package": "raster",
-      "Version": "3.6-3",
+      "Version": "3.6-26",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d550f9d6dbb4dce7cbd146b09d663343",
+      "Hash": "7d6eda494f34a644420ac1bfd2a8023a",
       "Requirements": [
         "Rcpp",
         "sp",
@@ -550,38 +784,75 @@
     },
     "rayimage": {
       "Package": "rayimage",
-      "Version": "0.6.2",
+      "Version": "0.10.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ffda622d6b71ae26d8712ed7b726bdd2",
+      "Hash": "7c506cf931e339dc3c8d9a872fba23c1",
       "Requirements": [
         "Rcpp",
         "RcppArmadillo",
         "jpeg",
-        "magrittr",
         "png",
         "progress"
       ]
     },
-    "rayshader": {
-      "Package": "rayshader",
-      "Version": "0.24.10",
+    "rayrender": {
+      "Package": "rayrender",
+      "Version": "0.31.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "61600f13786896940e7b7173ae1582a8",
+      "Hash": "6809476c5460c8075ae3da51de7f3a22",
+      "Requirements": [
+        "Rcpp",
+        "RcppThread",
+        "decido",
+        "magrittr",
+        "png",
+        "progress",
+        "purrr",
+        "raster",
+        "rayimage",
+        "rayvertex",
+        "spacefillr"
+      ]
+    },
+    "rayshader": {
+      "Package": "rayshader",
+      "Version": "0.35.7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a15a69c6faaf99f88a2ea54c1073b9dd",
       "Requirements": [
         "Rcpp",
         "RcppArmadillo",
         "doParallel",
         "foreach",
+        "jpeg",
         "magrittr",
         "png",
         "progress",
         "raster",
         "rayimage",
+        "rayrender",
+        "rayvertex",
         "rgl",
         "scales",
         "terrainmeshr"
+      ]
+    },
+    "rayvertex": {
+      "Package": "rayvertex",
+      "Version": "0.10.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ed06cfea0d3da55df9e991b6d0be031f",
+      "Requirements": [
+        "Rcpp",
+        "RcppThread",
+        "digest",
+        "png",
+        "rayimage",
+        "spacefillr"
       ]
     },
     "renv": {
@@ -594,10 +865,10 @@
     },
     "rgl": {
       "Package": "rgl",
-      "Version": "0.109.6",
+      "Version": "1.2.8",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0da70b9563a89391fd62468724cdbafc",
+      "Hash": "ebf0bdc2d3cddc603abf3a091d4a4d38",
       "Requirements": [
         "R6",
         "base64enc",
@@ -611,29 +882,75 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.0.4",
+      "Version": "1.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6539dd8c651e67e3b55b5ffea106362b",
+      "Hash": "50a6dbdc522936ca35afc5e2082ea91b",
       "Requirements": []
+    },
+    "rmarkdown": {
+      "Package": "rmarkdown",
+      "Version": "2.25",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d65e35823c817f09f4de424fcdfa812a",
+      "Requirements": [
+        "bslib",
+        "evaluate",
+        "fontawesome",
+        "htmltools",
+        "jquerylib",
+        "jsonlite",
+        "knitr",
+        "stringr",
+        "tinytex",
+        "xfun",
+        "yaml"
+      ]
     },
     "s2": {
       "Package": "s2",
-      "Version": "1.1.0",
-      "Source": "Repository",
+      "Version": "1.1.4",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "73748e27d17db3c1c400e8114fcf9824",
+      "RemoteType": "standard",
+      "RemotePkgRef": "s2",
+      "RemoteRef": "s2",
+      "RemoteRepos": "https://cran.rstudio.com",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.1.4",
+      "Hash": "f1cbe03bb3346f8e817518ffa20f9f5a",
       "Requirements": [
         "Rcpp",
         "wk"
       ]
     },
-    "scales": {
-      "Package": "scales",
-      "Version": "1.2.0",
+    "sass": {
+      "Package": "sass",
+      "Version": "0.4.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6e8750cdd13477aa440d453da93d5cac",
+      "Hash": "6bd4d33b50ff927191ec9acbf52fd056",
+      "Requirements": [
+        "R6",
+        "fs",
+        "htmltools",
+        "rappdirs",
+        "rlang"
+      ]
+    },
+    "scales": {
+      "Package": "scales",
+      "Version": "1.2.1",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "scales",
+      "RemoteRef": "scales",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.2.1",
+      "Hash": "906cb23d2f1c5680b8ce439b44c6fa63",
       "Requirements": [
         "R6",
         "RColorBrewer",
@@ -647,10 +964,10 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "1.0-8",
+      "Version": "1.0-14",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "153da622b27630793858f24436bc0871",
+      "Hash": "e2111252a76984ca50bf8d6314348681",
       "Requirements": [
         "DBI",
         "Rcpp",
@@ -660,62 +977,76 @@
         "units"
       ]
     },
-    "slippymath": {
-      "Package": "slippymath",
-      "Version": "0.3.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "abdaf883004a4791545655d79ca3aae0",
-      "Requirements": [
-        "png",
-        "purrr",
-        "raster"
-      ]
-    },
     "sp": {
       "Package": "sp",
-      "Version": "1.5-0",
+      "Version": "2.1-1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2a118bdd2db0a301711e0a9e3e3206d5",
+      "Hash": "e9090fe4ff468d366aa6a76a9b3ec078",
       "Requirements": [
         "lattice"
       ]
     },
-    "stringi": {
-      "Package": "stringi",
-      "Version": "1.7.8",
+    "spacefillr": {
+      "Package": "spacefillr",
+      "Version": "0.3.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a68b980681bcbc84c7a67003fa796bfb",
+      "Hash": "30850588bdc225885f2417fb1e7c8ee3",
+      "Requirements": [
+        "Rcpp"
+      ]
+    },
+    "stringi": {
+      "Package": "stringi",
+      "Version": "1.7.12",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "stringi",
+      "RemoteRef": "stringi",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.7.12",
+      "Hash": "ca8bd84263c77310739d2cf64d84d7c9",
       "Requirements": []
     },
     "stringr": {
       "Package": "stringr",
-      "Version": "1.4.0",
-      "Source": "Repository",
+      "Version": "1.5.0",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "0759e6b6c0957edb1311028a49a35e76",
+      "RemoteType": "standard",
+      "RemotePkgRef": "stringr",
+      "RemoteRef": "stringr",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.5.0",
+      "Hash": "671a4d384ae9d32fc47a14e98bfa3dc8",
       "Requirements": [
+        "cli",
         "glue",
+        "lifecycle",
         "magrittr",
-        "stringi"
+        "rlang",
+        "stringi",
+        "vctrs"
       ]
     },
     "sys": {
       "Package": "sys",
-      "Version": "3.4",
+      "Version": "3.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b227d13e29222b4574486cfcbde077fa",
+      "Hash": "3a1be13d68d47a8cd0bfd74739ca1555",
       "Requirements": []
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.6-17",
+      "Version": "1.7-55",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "3e264754dde87261bc7ccdb30d29d3b4",
+      "Hash": "c011cc748506148c793428eb8ec101f9",
       "Requirements": [
         "Rcpp"
       ]
@@ -730,58 +1061,164 @@
         "Rcpp"
       ]
     },
-    "units": {
-      "Package": "units",
-      "Version": "0.8-0",
+    "tibble": {
+      "Package": "tibble",
+      "Version": "3.2.1",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tibble",
+      "RemoteRef": "tibble",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "3.2.1",
+      "Hash": "a84e2cc86d07289b3b6f5069df7a004c",
+      "Requirements": [
+        "fansi",
+        "lifecycle",
+        "magrittr",
+        "pillar",
+        "pkgconfig",
+        "rlang",
+        "vctrs"
+      ]
+    },
+    "tidyselect": {
+      "Package": "tidyselect",
+      "Version": "1.2.0",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tidyselect",
+      "RemoteRef": "tidyselect",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "1.2.0",
+      "Hash": "79540e5fcd9e0435af547d885f184fd5",
+      "Requirements": [
+        "cli",
+        "glue",
+        "lifecycle",
+        "rlang",
+        "vctrs",
+        "withr"
+      ]
+    },
+    "tigris": {
+      "Package": "tigris",
+      "Version": "2.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6c374b265ba437f8d384ec7a313edd96",
+      "Hash": "5d5a584639a92e76baa3ed32c7999886",
+      "Requirements": [
+        "dplyr",
+        "httr",
+        "magrittr",
+        "rappdirs",
+        "sf",
+        "stringr",
+        "uuid"
+      ]
+    },
+    "tinytex": {
+      "Package": "tinytex",
+      "Version": "0.48",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "8f96d229b7311beb32b94cf413b13f84",
+      "Requirements": [
+        "xfun"
+      ]
+    },
+    "units": {
+      "Package": "units",
+      "Version": "0.8-4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e0fbcea25008a7540c83c2c294135de0",
       "Requirements": [
         "Rcpp"
       ]
     },
-    "vctrs": {
-      "Package": "vctrs",
-      "Version": "0.4.1",
+    "utf8": {
+      "Package": "utf8",
+      "Version": "1.2.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8b54f22e2a58c4f275479c92ce041a57",
+      "Hash": "62b65c52671e6665f803ff02954446e9",
+      "Requirements": []
+    },
+    "uuid": {
+      "Package": "uuid",
+      "Version": "1.1-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "3d78edfb977a69fc7a0341bee25e163f",
+      "Requirements": []
+    },
+    "vctrs": {
+      "Package": "vctrs",
+      "Version": "0.6.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "266c1ca411266ba8f365fcc726444b87",
       "Requirements": [
         "cli",
         "glue",
+        "lifecycle",
         "rlang"
       ]
     },
     "viridisLite": {
       "Package": "viridisLite",
-      "Version": "0.4.0",
+      "Version": "0.4.2",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "viridisLite",
+      "RemoteRef": "viridisLite",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "0.4.2",
+      "Hash": "c826c7c4241b6fc89ff55aaea3fa7491",
+      "Requirements": []
+    },
+    "withr": {
+      "Package": "withr",
+      "Version": "2.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "55e157e2aa88161bdb0754218470d204",
+      "Hash": "4b25e70111b7d644322e9513f403a272",
       "Requirements": []
     },
     "wk": {
       "Package": "wk",
-      "Version": "0.6.0",
+      "Version": "0.9.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d6bc0432436a0aefbf29d5de8588b876",
+      "Hash": "f58cfa8d9c3a78a309d455a647dee853",
       "Requirements": []
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.32",
+      "Version": "0.41",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0498af3034691dde715dcd86198efe75",
+      "Hash": "460a5e0fe46a80ef87424ad216028014",
       "Requirements": []
     },
     "yaml": {
       "Package": "yaml",
-      "Version": "2.3.5",
-      "Source": "Repository",
+      "Version": "2.3.7",
+      "Source": "CRAN",
       "Repository": "CRAN",
-      "Hash": "458bb38374d73bf83b1bb85e353da200",
+      "RemoteType": "standard",
+      "RemotePkgRef": "yaml",
+      "RemoteRef": "yaml",
+      "RemoteRepos": "https://mirror.las.iastate.edu/CRAN",
+      "RemotePkgPlatform": "x86_64-apple-darwin20",
+      "RemoteSha": "2.3.7",
+      "Hash": "0d0056cc5383fbc240ccd0cb584bf436",
       "Requirements": []
     }
   }
